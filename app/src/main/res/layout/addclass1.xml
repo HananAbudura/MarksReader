@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/input_name"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Doctor Name" />
+
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_nameofcourse"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Course Name" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_numberofclass"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Class Number" />
+
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/openfile"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="onClickOpenFile"
+            android:text="Open Excel Sheet"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:background="@drawable/cor"
+            android:layout_marginTop="18dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:hint="That sheet must have names and registration numbers for students "
+            />
+        <Button
+            android:layout_marginTop="18dp"
+            android:id="@+id/store"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="store"
+            android:text="Store Information"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:background="@drawable/cor1"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:enabled="false"
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Second Page"
+        android:textStyle="bold"
+        android:textColorHighlight="#00b050"
+        android:textDirection="firstStrong"
+        android:textColor="#00b050"
+        android:textSize="40sp"
+
+        android:paddingBottom="160dp"
+        android:paddingTop="300dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="40dp"
+
+        />
+
+
+</FrameLayout>
